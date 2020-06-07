@@ -16,10 +16,9 @@
      service jenkins start #systemctl start jenkins
      service jenkins enable #systemctl enable jenkins
 
-###***Packer Installation***###
+     ###***Packer Installation***###
      wget https://releases.hashicorp.com/packer/1.5.6/packer_1.5.6_linux_amd64.zip
-     unzip -d /usr/local/bin packer_1.5.6_linux_amd64.zip
+     
 
-
-
+      
 
