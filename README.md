@@ -30,12 +30,12 @@ Configuring local machine for setting IAC  infrastructure.
 
 Below are the set of commands used for deploying the app.py using user data via file functions in Terraform.
 - In my scenario i have chosen to used Ubuntu machine for deploying the python app
-		- sudo apt update
-		- sudo apt install git apt python3.6 python3-pip -y
-		- git clone https://github.com/ssheru/assignment.git
-		- cd assignment/test-app/
-		- pip3 install -r requirements.txt
-		- python3 app.py
+	- sudo apt update
+	- sudo apt install git apt python3.6 python3-pip -y
+	- git clone https://github.com/ssheru/assignment.git
+	- cd assignment/test-app/
+	- pip3 install -r requirements.txt
+	- python3 app.py
 
 ## Deployment Brief:
 I have chosen to go with a very generic deployment for this exercise, what I have done is --provisioned an AWS ec2 instance using terraform, during the provisioning period I have installed all the required pre-requisites explained in the above section using the user data through Terraform file function.
